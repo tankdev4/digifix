@@ -253,7 +253,7 @@
     height: 0px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 20px solid $dark-gray;
+    border-left: 20px solid $theme-primary-color;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -279,7 +279,7 @@
 
 @-webkit-keyframes spineerb {
     0% {
-        -webkit-box-shadow: 0 0 0 0 rgba(66, 97, 198, 0.51);
+        -webkit-box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.51);
     }
 
     70% {
@@ -293,8 +293,8 @@
 
 @keyframes spineerb {
     0% {
-        -webkit-box-shadow: 0 0 0 0 rgba(66, 79, 198, 0.51);
-        box-shadow: 0 0 0 0 rgba(66, 97, 198, 0.51);
+        -webkit-box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.51);
+        box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.51);
     }
 
     70% {
@@ -323,14 +323,14 @@
 .wpo-project-details-text {
     text-align: center;
     padding: 40px;
-    background: #122354;
+    background: $theme-primary-color-s2;
 
 }
 
 .wpo-project-details-text-3 {
     text-align: center;
     padding: 40px;
-    background: #021549;
+    background: $body-color;
 }
 
 .wpo-project-details-list {

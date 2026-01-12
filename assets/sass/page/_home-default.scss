@@ -267,7 +267,7 @@
                 }
 
                 &:nth-child(1) {
-                    background: #3860D2;
+                    background:$theme-primary-color-s2; //#3860D2;
                     transform: rotate(-10.459deg);
                     position: relative;
                     left: 30px;
@@ -433,7 +433,7 @@
     z-index: 1;
     padding-top: 90px;
     padding-bottom: 190px;
-    background: #061D61;
+    background:$theme-primary-color-s2;  //#303442; //#061D61;
     border-bottom-right-radius: 48px;
     border-bottom-left-radius: 48px;
 
@@ -660,11 +660,11 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 25.55%, rgba(0, 0, 0, 0.00) 37.62%, rgba(20, 35, 77, 0.37) 47.76%, rgba(31, 53, 116, 0.55) 60.64%, #3860D2 71.95%);
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 25.55%, rgba(0, 0, 0, 0.00) 37.62%, rgba(20, 35, 77, 0.37) 47.76%, rgba(31, 53, 116, 0.55) 60.64%, #F97316 71.95%);
                 z-index: 1;
 
                 @media(max-width:991px) {
-                    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30.55%, rgba(0, 0, 0, 0) 30.62%, rgba(20, 35, 77, 0.37) 40.76%, rgba(31, 53, 116, 0.55) 50.64%, #3860D2 67.95%);
+                    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30.55%, rgba(0, 0, 0, 0) 30.62%, rgba(20, 35, 77, 0.37) 40.76%, rgba(31, 53, 116, 0.55) 50.64%, #F97316 67.95%);
                 }
             }
         }
@@ -808,7 +808,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    background-color: rgba(56, 96, 210, 0.06);
+                    background-color: rgba(249, 115, 22, 0.06);
                     margin: 0 auto;
 
                     @media (max-width:1399px) {
@@ -1369,7 +1369,7 @@
 
         h2 {
             margin: 0;
-            color: #3860D2;
+            color: $theme-primary-color; //#3860D2;
             font-size: 180px;
             font-weight: 500;
             line-height: 55px;
@@ -1448,7 +1448,7 @@
     padding: 170px 0;
     padding-bottom: 140px;
     border-radius: 33px;
-    background: #122354;
+    background: $theme-primary-color-s2;//#122354;
     position: relative;
     z-index: 1;
 
@@ -2461,11 +2461,11 @@
                 }
 
                 a {
-                    color: #043460;
+                    color: $theme-primary-color-s2; //#043460;
                     transition: all ease-in-out .4s;
 
                     &:hover {
-                        color: #4d60bd;
+                        color: $theme-primary-color; //#4d60bd;
                     }
                 }
             }
@@ -2493,11 +2493,11 @@
                 }
 
                 a {
-                    color: #043460;
+                    color: $theme-primary-color-s2; //#043460;
                     transition: all ease-in-out .4s;
 
                     &:hover {
-                        color: #4d60bd;
+                        color: $theme-primary-color; //#4d60bd;
                     }
                 }
             }
@@ -2511,7 +2511,7 @@
 
                 .more-btn {
                     position: relative;
-                    color: #095091;
+                    color: $theme-primary-color-s2; //#095091;
                     text-decoration: underline;
                     transition: all ease .4s;
                 }
@@ -2519,17 +2519,17 @@
                 .ti {
                     position: relative;
                     top: 3px;
-                    color: #095091;
+                    color: $theme-primary-color-s2; //#095091;
                     transition: all ease .4s;
                 }
 
                 &:hover {
                     .more-btn {
-                        color: #4d60bd;
+                        color: $theme-primary-color; //#4d60bd;
                     }
 
                     .ti {
-                        color: #4d60bd;
+                        color: $theme-primary-color; //#4d60bd;
                     }
                 }
             }

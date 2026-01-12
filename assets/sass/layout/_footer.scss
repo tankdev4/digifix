@@ -8,7 +8,7 @@
     overflow: hidden;
     z-index: 1;
     padding-top: 0;
-    background-color: #000;
+    background-color: #121212;
 
     @media (max-width:991px) {
         padding-top: 0;
@@ -405,7 +405,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #000;
+            background-color: #121212;
 
 
             &::before,
@@ -421,12 +421,12 @@
 
             &::before {
                 left: 0;
-                background: linear-gradient(to right, #000 0%, transparent 100%);
+                background: linear-gradient(to right, #121212 0%, transparent 100%);
             }
 
             &::after {
                 right: 0;
-                background: linear-gradient(to left, #000 0%, transparent 100%);
+                background: linear-gradient(to left, #121212 0%, transparent 100%);
             }
         }
 

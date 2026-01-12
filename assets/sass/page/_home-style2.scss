@@ -308,7 +308,7 @@
 
     .service-wrap {
         border-radius: 28px;
-        background: #F3F5FC;
+        background: $light-ornage;
         padding: 60px 40px 0;
         position: relative;
         transition: all ease-in-out .4s;
@@ -396,7 +396,7 @@
                 line-height: 47px;
                 border-radius: 50%;
                 text-align: center;
-                background-color: #DFE3F0;
+                background-color: #e9ded6;
                 position: absolute;
                 top: 25px;
                 right: 30px;
@@ -515,7 +515,7 @@
                     content: "";
                     width: 100%;
                     height: 100%;
-                    background-color: rgba(1, 14, 51, 0.5);
+                    background-color: rgba(249, 115, 22, 0.4);
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -587,7 +587,7 @@
                 background: #FFF;
                 padding: 35px 0;
                 border-radius: 20px;
-                border: 1px solid #132869;
+                border: 1px solid $theme-primary-color-s2;
                 background: #FFF;
 
                 @media (max-width:991px) {
@@ -614,7 +614,7 @@
                     }
 
                     a {
-                        color: #0E152B;
+                        color: $theme-primary-color-s2;
                         transition: all ease-in-out .4s;
 
                         &:hover {
@@ -624,7 +624,7 @@
                 }
 
                 span {
-                    color: #095091;
+                    color: $theme-primary-color;
                     font-size: 18px;
                     font-weight: 500;
                     line-height: 100%;
@@ -715,7 +715,7 @@
                     height: 100%;
                     transform: translate(-50%, -50%);
                     z-index: 1;
-                    background: linear-gradient(353deg, #00081E -26.71%, rgba(0, 66, 255, 0.00) 56.71%), rgba(2, 34, 125, 0.20);
+                    background: linear-gradient(353deg, #111827 -26.71%, rgba(0, 66, 255, 0.00) 56.71%), rgba(2, 34, 125, 0.20);
                     transition: all 0.4s ease-in-out;
                     opacity: 0;
                     visibility: hidden;
@@ -756,7 +756,7 @@
                             color: #fff;
 
                             &:hover {
-                                color: $theme-primary-color-s2;
+                                color: $theme-primary-color;
                             }
                         }
                     }
