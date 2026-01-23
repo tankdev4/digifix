@@ -18,8 +18,9 @@ url("../fonts/flaticon_digifix.ttf?da7a82cff604fd63ae68b8c4403f4517") format("tr
 url("../fonts/flaticon_digifix.svg?da7a82cff604fd63ae68b8c4403f4517#flaticon_digifix") format("svg")
 }
 
+.fi, 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-    font-family: flaticon_digifix !important;
+    font-family: "flaticon_digifix" !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
