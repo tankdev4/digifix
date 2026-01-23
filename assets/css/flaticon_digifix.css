@@ -10,16 +10,16 @@
 */
 
 @font-face {
-    font-family: "flaticon";
+    font-family: "flaticon_digifix";
     src: url("../fonts/flaticon_digifix.woff2?da7a82cff604fd63ae68b8c4403f4517") format("woff2"),
 url("../fonts/flaticon_digifix.woff?da7a82cff604fd63ae68b8c4403f4517") format("woff"),
 url("../fonts/flaticon_digifix.eot?da7a82cff604fd63ae68b8c4403f4517#iefix") format("embedded-opentype"),
 url("../fonts/flaticon_digifix.ttf?da7a82cff604fd63ae68b8c4403f4517") format("truetype"),
-url("../fonts/flaticon_digifix.svg?da7a82cff604fd63ae68b8c4403f4517#flaticon") format("svg")
+url("../fonts/flaticon_digifix.svg?da7a82cff604fd63ae68b8c4403f4517#flaticon_digifix") format("svg")
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-    font-family: "flaticon" !important;
+    font-family: flaticon_digifix !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
