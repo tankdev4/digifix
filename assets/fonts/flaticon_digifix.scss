@@ -1,17 +1,17 @@
-$flaticon_DigiFix-font: "flaticon_DigiFix";
+$flaticon_DigiFix-font: "flaticon_digifix";
 
 @font-face {
     font-family: $flaticon_DigiFix-font;
-    src: url("./flaticon_DigiFix.woff2?da7a82cff604fd63ae68b8c4403f4517") format("woff2"),
-        url("./flaticon_DigiFix.woff?da7a82cff604fd63ae68b8c4403f4517") format("woff"),
-        url("./flaticon_DigiFix.eot?da7a82cff604fd63ae68b8c4403f4517#iefix") format("embedded-opentype"),
-        url("./flaticon_DigiFix.ttf?da7a82cff604fd63ae68b8c4403f4517") format("truetype"),
-        url("./flaticon_DigiFix.svg?da7a82cff604fd63ae68b8c4403f4517#flaticon_DigiFix") format("svg");
+    src: url("./flaticon_digifix.woff2?da7a82cff604fd63ae68b8c4403f4517") format("woff2"),
+        url("./flaticon_digifix.woff?da7a82cff604fd63ae68b8c4403f4517") format("woff"),
+        url("./flaticon_digifix.eot?da7a82cff604fd63ae68b8c4403f4517#iefix") format("embedded-opentype"),
+        url("./flaticon_digifix.ttf?da7a82cff604fd63ae68b8c4403f4517") format("truetype"),
+        url("./flaticon_digifix.svg?da7a82cff604fd63ae68b8c4403f4517#flaticon_digifix") format("svg");
 }
 
 i[class^="flaticon-"]:before,
 i[class*=" flaticon-"]:before {
-    font-family: flaticon_DigiFix !important;
+    font-family: flaticon_digifix !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
