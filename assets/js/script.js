@@ -531,7 +531,7 @@
 
         searchToggleBtn.on("click", function (e) {
             searchContent.toggleClass("header-search-content-toggle");
-            searchToggleBtnIcon.toggleClass("fi flaticon-magnifying-glass fi ti-close");
+            searchToggleBtnIcon.toggleClass("flaticon-menu ti-close");
             e.stopPropagation();
         });
 
