@@ -564,7 +564,7 @@
 			}
 
 			&:hover {
-				background-color: #1b3683;
+				background-color: $theme-primary-hover-color;
 				color: $white;
 			}
 		}
@@ -679,7 +679,7 @@
 
 	#loading {
 		margin-top: 10px;
-		color: blue;
+		color: orange;
 		font-weight: bold;
 	}
 }

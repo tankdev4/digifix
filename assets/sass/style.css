@@ -970,7 +970,7 @@ img {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(249deg, rgba(16, 40, 0, 0) -3.38%, rgba(16, 40, 0, 0.16) -6.18%, rgba(9, 32, 97, 0.85) 42.42%, #141635 66.17%);
+  background: linear-gradient(249deg, rgba(16, 40, 0, 0) -3.38%, rgba(18, 8, 0, 0.0705882353) -6.18%, rgba(88, 42, 9, 0.8117647059) 42.42%, #1d130c 66.17%);
   content: "";
   z-index: -1;
 }
@@ -9399,7 +9399,7 @@ img {
 .checkout-area .s3.coupon-2 .coupon-3 label {
   border-left: none;
   border-top: 4px solid #F97316;
-  border-bottom: 1px solid #79a1ee;
+  border-bottom: 1px solid #ebab7f;
 }
 .checkout-area .s2 .coupon-3 {
   border-top: 4px solid #F97316;
@@ -9409,7 +9409,7 @@ img {
 }
 .checkout-area .s2 .coupon-3 label {
   border-left: 0;
-  border-bottom: 1px solid #79a1ee;
+  border-bottom: 1px solid #ebab7f;
 }
 .checkout-area .s2.coupon-2 .coupon-3 label {
   border-left: 4px solid #F97316;
@@ -11493,7 +11493,7 @@ img {
   }
 }
 .blog-single-section .comment-respond .form-submit input:hover {
-  background-color: #1b3683;
+  background-color: #EA580C;
   color: #FFFFFF;
 }
 .blog-single-section .comment-respond .terms {
@@ -11593,7 +11593,7 @@ img {
 }
 .blog-single-section #loading {
   margin-top: 10px;
-  color: blue;
+  color: orange;
   font-weight: bold;
 }
 
